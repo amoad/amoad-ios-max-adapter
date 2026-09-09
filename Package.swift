@@ -15,12 +15,10 @@ let package = Package(
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package", from: "13.0.0")
     ],
     targets: [
-        // url / checksum はリリースごとに更新する
-        // ( checksum は make.sh maxadapter が zip 生成時に出力する値を転記する )
+        // xcframework は ultima-ios-sdk の make.sh maxadapter がリリースごとに配置する
         .binaryTarget(
             name: "AMoAdMaxAdapter",
-            url: "https://github.com/amoad/amoad-ios-max-adapter/releases/download/1.1.5/AMoAdMaxAdapter.xcframework.zip",
-            checksum: "RELEASE_TIME_CHECKSUM_PLACEHOLDER"
+            path: "AMoAdMaxAdapter.xcframework"
         ),
         // binaryTarget には依存を宣言できないため、このターゲットで
         // AMoAd SDK と AppLovinSDK への依存を束ねる

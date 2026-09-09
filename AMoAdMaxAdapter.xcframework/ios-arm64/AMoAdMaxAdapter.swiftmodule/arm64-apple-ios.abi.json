@@ -1,0 +1,229 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AMoAdMaxAdapter",
+    "printedName": "AMoAdMaxAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ALAMoAdMediationAdapterLoader",
+        "printedName": "ALAMoAdMediationAdapterLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adapterClass",
+            "printedName": "adapterClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO12adapterClassyXlXpvpZ",
+            "mangledName": "$s15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO12adapterClassyXlXpvpZ",
+            "moduleName": "AMoAdMaxAdapter",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO12adapterClassyXlXpvgZ",
+                "mangledName": "$s15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO12adapterClassyXlXpvgZ",
+                "moduleName": "AMoAdMaxAdapter",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO",
+        "mangledName": "$s15AMoAdMaxAdapter05ALAMob9MediationD6LoaderO",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AMoAd",
+        "printedName": "AMoAd",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "AMoAdMaxAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ALAMoAdMediationAdapterSettings",
+        "printedName": "ALAMoAdMediationAdapterSettings",
+        "declKind": "Struct",
+        "usr": "s:15AMoAdMaxAdapter05ALAMob9MediationD8SettingsV",
+        "mangledName": "$s15AMoAdMaxAdapter05ALAMob9MediationD8SettingsV",
+        "moduleName": "AMoAdMaxAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdMaxAdapter\/ALAMoAdRewardedVideoDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 11,
+      "value": "\"completed\""
+    },
+    {
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdMaxAdapter\/ALAMoAdRewardedVideoDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 22,
+      "value": "\"completed_and_closed\""
+    },
+    {
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdMaxAdapter\/ALAMoAdMediationAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 4,
+      "value": "\".0\""
+    },
+    {
+      "filePath": "\/Users\/s17989\/dev\/ultima\/ultima-ai-workspace\/worktrees\/spm-support\/ultima-ios-sdk\/AMoAd\/AMoAdMaxAdapter\/ALAMoAdMediationAdapterSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 7,
+      "value": "\"1.1.4\""
+    }
+  ]
+}
